@@ -1,0 +1,46 @@
+html{
+	filter : invert(1)
+    
+}
+.page{
+    
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    margin-top: 10px;
+   
+}
+
+.todo-count{
+    margin-top: 20px;
+  
+}
+.clear-completed{
+    margin-top: 20px;
+}
+
+
+@media only screen and (max-width:786px){
+    .page{
+        width: 100%;
+        
+    }
+   
+}
+@media only screen and (min-width: 767) and (max-width: 990){
+
+    .page{
+        
+       
+        width: 100%;
+    }
+   
+}
+
+@media (min-width: 991){
+    .page{
+        
+        
+        width: 100%;
+    }
+}
